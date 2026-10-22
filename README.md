@@ -1,9 +1,6 @@
 # LitReview Research Studio
-
 A Flask-based starter application for organizing research papers and generating an exploratory literature-review draft from the paper text supplied by the researcher.
-
 ## Features
-
 - Import text-based PDF, TXT, and Markdown files.
 - Extract selectable PDF text with PyMuPDF on the Flask backend.
 - Add and remove paper records in the current browser session.
@@ -11,16 +8,13 @@ A Flask-based starter application for organizing research papers and generating 
 - Use extractive sentence ranking for paper summaries and simple keyword/repeated-term analysis for exploratory themes.
 - Copy the generated draft or download it as a `.txt` file.
 - Show library insights for keywords and publication-year coverage.
-
 ## Run locally
-
 ```powershell
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 python app.py
 ```
-
 Then open `http://127.0.0.1:5000`.
 
 ## How review generation works
